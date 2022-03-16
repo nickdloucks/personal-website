@@ -1,0 +1,41 @@
+{
+  "name": "my-professional-website",
+  "version": "1.0.0",
+  "description": "My professional Website",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdloucks/personal-website.git"
+  },
+  "keywords": [
+    "personal-website"
+  ],
+  "author": "Nick Loucks",
+  "bugs": {
+    "url": "https://github.com/nickdloucks/personal-website/issues"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "nodemon src/index.ts",
+    "build": "npx tsc",
+    "test": "jasmine",
+    "jtest": "npm run build && npm run test --silent"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^3.10.3",
+    "@types/node": "^17.0.14",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3",
+    "jasmine": "^3.99.0",
+    "jasmine-spec-reporter": "^7.0.0"
+  },
+  "homepage": "https://github.com/nickdloucks/personal-website",
+  "type": "module"
+}
