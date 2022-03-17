@@ -1,0 +1,10 @@
+#skills{
+    display: inline;
+}
+li{
+    margin: 0.15em;
+    /* not working */
+}
+h1,h2{
+    text-align: center;
+}
