@@ -8,3 +8,16 @@ li{
 h1,h2{
     text-align: center;
 }
+#skills{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(60px, 1fr));
+    grid-template-rows: repeat(4, minmax(60px, 1fr));
+    background-color: #cccccc;
+    grid-template-areas: 
+        header
+        content;
+}
+#skills-head{
+    grid-area: header;
+
+}
