@@ -8,7 +8,11 @@ li{
 h1,h2{
     text-align: center;
 }
-#skills{
+#profile-picture{
+    border-radius: 20%;
+    width: minmax(400px, 1fr);
+}
+/* #skills{
     display: grid;
     grid-template-columns: repeat(3, minmax(60px, 1fr));
     grid-template-rows: repeat(4, minmax(60px, 1fr));
@@ -16,8 +20,12 @@ h1,h2{
     grid-template-areas: 
         header
         content;
-}
-#skills-head{
-    grid-area: header;
+} */
+
+.embedded-project{
+    margin: 1.5em;
+    display: block;
+    width: 1fr;
+    height: 500px;
 
 }
