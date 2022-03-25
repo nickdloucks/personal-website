@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="./src/libs/style/nick-dark-mode.css"/>
         <link rel="stylesheet" type="text/css" href="./src/libs/style/prof-website.css"/>
 
-        <script type="module" src="./src/index.mjs" async></script>
+        <script type="module" src="./dist/index.mjs" async></script>
 
     </head>
     <body>
@@ -27,10 +27,12 @@
         <main>
             <article>
                 <p>Hi, I'm Nick and I am a Full-Stack Software Development Engineer based in Seattle, WA. Check out my Resum&eacute;, skills, my GitHub, and some of my projects.</p>
+                <img src="./images/github-profPic.jpg" id="profile-picture" alt="profile picture of me on a hike">
             </article>
-            <img src="./images/github-profPic.jpg" id="profile-picture">
+
                
-            <ul id="skills" class="grid-container"><h3 id="skills-head">Technical Skills:</h3>
+            <ul class="grid-container">
+                <h3 id="skills-head">Technical Skills:</h3>
                 <li>Typescript</li>
                 <li>Javascript</li>
                 <li>Node.js</li>
@@ -44,19 +46,18 @@
                 <!-- UPDATE WITH MORE SKILLS HERE-->
             </ul>
 
-            <span>
-                <h3>Links and documents:</h3>
-                <a href="./src/downloadable/Nick Loucks Resume Mar. '22.pdf" download class="neutral-button">Resum&eacute;</a>
-                <a href="https://github.com/nickdloucks" class="neutral-button" target="_blank">My Github Profile</a>
+            <div class="grid-container">
+                <h3 class="grid-header">Links and documents:</h3>
+                <a href="./src/downloadable/Nick Loucks Resume Mar. '22.pdf" download class=" neutral-button">Resum&eacute;</a>
+                <a href="https://github.com/nickdloucks" class="neutral-button" target="_blank">Github Profile</a>
                 <a href="https://www.linkedin.com/in/nick-loucks-6518bb222/" class="neutral-button" target="_blank">LinkedIn</a>
                 <a href="https://github.com/nickdloucks/Code-Portfolio" class="neutral-button" target="_blank">Code Portfolio</a>
-            </span>
+            </div>
             <article>
                 <h2>Try out my Projects:</h2>
-                <h3>Roman Numeral Conversion Tool
-                    <a href="https://github.com/nickdloucks/Roman-Numeral-project" target="_blank" class="neutral-button" alt="My project repository on Github.">Source Code</a>
-                </h3>
-                <iframe src="https://nickdloucks.github.io/Roman-Numeral-project/" width="80%" height="500px" alt="My Roman Numeral Project, embedded."></iframe>
+                <h3>Roman Numeral Conversion Tool</h3>
+                <a href="https://github.com/nickdloucks/Roman-Numeral-project" target="_blank" class="neutral-button" alt="My project repository on Github.">Source Code</a>
+                <iframe src="https://nickdloucks.github.io/Roman-Numeral-project/" class="embedded-project" alt="My Roman Numeral Project, embedded."></iframe>
                 
                 <h3>Stopwatch</h3>
                 <p>(coming soon...)</p>
