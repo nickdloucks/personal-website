@@ -60,14 +60,14 @@
             
             <section>
                 <h3>Roman Numeral Conversion Tool</h3>
-                <p>This is a reference tool that onverts a base-10 number to a Roman Numeral string. 
+                <p>This is a reference tool that converts a base-10 number to a Roman Numeral string. 
                     It truncates (rounds down) any floating-point numbers to an integer before conversion.
                     The only parameter is an integer in base-10 format.
                     The return value is either a Roman Numeral or error message for invalid inputs.
                     Process:
                         1. convert decimal to string, split into an array of characters, then reverse the array.
                         2. loop thru the reversed array of chars; inside the loop, store the digit as a number for comparison.
-                        3. assign the correct sequence of small, medium, and big letters based on the digit's place in the decimal-format number provided.
+                        3. assign the correct sequence of small, medium, and big letters based on the digit's place in the base-10 input.
                         4. push the letter sequence onto the final roman numeral string and return the finished string.
                 </p>
                 <a href="https://github.com/nickdloucks/Roman-Numeral-project" target="_blank" class="neutral-button" alt="My project repository on Github.">Source Code</a>
