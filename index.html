@@ -32,36 +32,40 @@
                 <img src="./images/github-profPic.jpg" id="profile-picture" alt="profile picture of me on a hike">
             </section>
 
-               
-            <ul class="grid-container">
-                <h3 id="skills-head">Technical Skills:</h3>
-                <li>Typescript</li>
-                <li>Javascript</li>
-                <li>Node.js</li>
-                <li>React.js</li>
-                <li>Python</li>
-                <li>Object-Oriented, Functional, and Asynchronous programming paradigms</li>
-                <li>Test-Driven-Development (I like to use Jasmine)</li>
-                <li>Express.js</li>
-                <li>MongoDB</li>
-                <li>Git/version control</li>
-                <!-- UPDATE WITH MORE SKILLS HERE-->
-            </ul>
+            <section>
+                <h3 id="skills-head">Technical Skills:</h3>  
+                <ul class="grid-container">
+                    <li>Typescript</li>
+                    <li>Javascript</li>
+                    <li>Node.js</li>
+                    <li>React.js</li>
+                    <li>Python</li>
+                    <li>Object-Oriented, Functional, and Asynchronous programming paradigms</li>
+                    <li>Test-Driven-Development (I like to use Jasmine)</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Git/version control</li>
+                    <!-- UPDATE WITH MORE SKILLS HERE-->
+                </ul>
+            </section>
 
-            <div class="grid-container">
+            <section>
                 <h3 class="grid-header">Links and documents:</h3>
-                <a href="./src/downloadable/Nick Loucks Resume Mar. '22.pdf" download class=" neutral-button">Resum&eacute;</a>
-                <a href="https://github.com/nickdloucks" class="neutral-button" target="_blank">Github Profile</a>
-                <a href="https://www.linkedin.com/in/nick-loucks-6518bb222/" class="neutral-button" target="_blank">LinkedIn</a>
-                <a href="https://github.com/nickdloucks/Code-Portfolio" class="neutral-button" target="_blank">Code Portfolio</a>
-            </div>
+                <div class="grid-container">
+                    <a href="./src/downloadable/Nick Loucks Resume May '22(2).pdf" download class=" neutral-button">Resum&eacute;</a>
+                    <a href="https://github.com/nickdloucks" class="neutral-button" target="_blank">Github Profile</a>
+                    <a href="https://www.linkedin.com/in/nick-loucks-6518bb222/" class="neutral-button" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/nickdloucks/Code-Portfolio" class="neutral-button" target="_blank">Code Portfolio</a>
+                </div>
+            </section>
+            
             
             <h2>Try out my Projects:</h2>
             
             <section>
                 <h3>Roman Numeral Conversion Tool</h3>
-                <p>This is a reference tool that converts a base-10 number to a Roman Numeral string. 
-                    It truncates (rounds down) any floating-point numbers to an integer before conversion.
+                <p>This is a reference tool that converts a base-10 number to a Roman Numeral string.</p> 
+                    <details>It truncates (rounds down) any floating-point numbers to an integer before conversion.
                     The only parameter is an integer in base-10 format.
                     The return value is either a Roman Numeral or error message for invalid inputs.
                     Process:
@@ -69,7 +73,8 @@
                         2. loop thru the reversed array of chars; inside the loop, store the digit as a number for comparison.
                         3. assign the correct sequence of small, medium, and big letters based on the digit's place in the base-10 input.
                         4. push the letter sequence onto the final roman numeral string and return the finished string.
-                </p>
+                    </details>
+                
                 <a href="https://github.com/nickdloucks/Roman-Numeral-project" target="_blank" class="neutral-button" alt="My project repository on Github.">Source Code</a>
             </section>
                 <iframe src="https://nickdloucks.github.io/Roman-Numeral-project/" class="embedded-project" alt="My Roman Numeral Project, embedded."></iframe>
