@@ -19,11 +19,11 @@ a:hover{
     color: #000000;
     background-color: var(--nick-blue, blue);
     padding: 1rem;
-    transition: padding border 0.5s ease-in-out 0.25s;
     border-radius: 0.25rem;
 }
 .neutral-button:hover{
-    border-style: solid #000000 2px;
+    border-style: solid;
+    border: #000000 2px;
     color: #ffffff;
     font-style: italic;
 }
