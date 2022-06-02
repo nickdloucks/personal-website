@@ -17,7 +17,8 @@
     --nick-gray: #818181; /* -custom- */
     --nick-dull-gold: #ffb200; /* -custom- */
     /* BRONZE?? COPPER? METALLIC GREEN? */
-}
+    --nick-silver: linear-gradient(45deg, var(--nick-dk-gray), var(--nick-dull-silver), var(--nick-gray));
+}   
 /* ROOT */
 html {
     font-size: 24px; /* default font size for root of document */
@@ -28,10 +29,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Lucida Bright, Georgia, serif;
     box-sizing: border-box;
     margin: 1em;
+    background-image: var(--nick-silver);
+    padding: 1em;
 }
 
 p, pre, section, div {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 0.8em;
     padding: 0.8em;
     box-sizing: border-box;
