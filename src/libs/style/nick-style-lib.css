@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1em;
     padding: 1em;
     color: var(--nick-lt-blue);
+    text-align: center;
 }
 h1, h3{
     color: var(--nick-dk-purple);
@@ -153,7 +154,6 @@ a:visited{
     border-radius: 1em;
     font-size: 1em;
     height: max-content;
-    width: 1fr;
     min-width: max-content;
     justify-items: center;
     align-items: center;
