@@ -24,12 +24,24 @@
     <body>
         <header>
             <h1>Nick Loucks</h1>
-            <h2>Full-Stack Software Development Engineer</h2>
         </header>
         <main>
-            <section>
-                <p>Hi, I'm Nick and I am a Full-Stack Software Development Engineer based in Seattle, WA. Check out my Resum&eacute;, skills, my GitHub, and some of my deployed projects, embedded below.</p>
+            <section class="intro1">
                 <img src="./images/github-profPic.jpg" id="profile-picture" alt="profile picture of me on a hike">
+                <span class="intro2">
+                    <h2>Software Development Engineer</h2>
+                    <p>Hi, I'm Nick and I am a Full-Stack Software Development Engineer based in Seattle, WA. Check out my Resum&eacute;, skills, my GitHub, and some of my deployed projects, embedded below.</p>
+                </span>
+            </section>
+
+            <section>
+                <h3 class="grid-header">Links and documents:</h3>
+                <div class="grid-container">
+                    <a href="./src/downloadable/Nick Loucks Resume May '22(2).pdf" download class="neutral-button grid-item">Resum&eacute;</a>
+                    <a href="https://github.com/nickdloucks" class="neutral-button grid-item" target="_blank">Github Profile</a>
+                    <a href="https://www.linkedin.com/in/nick-loucks-6518bb222/" class="neutral-button grid-item" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/nickdloucks/Code-Portfolio" class="neutral-button grid-item" target="_blank">Code Portfolio</a>
+                </div>
             </section>
 
             <section>
@@ -54,33 +66,25 @@
                     <li class="grid-item text-grid-item">TDD (w/ Jasmine)</li>
                 </ul>
             </section>
-
-            <section>
-                <h3 class="grid-header">Links and documents:</h3>
-                <div class="grid-container">
-                    <a href="./src/downloadable/Nick Loucks Resume May '22(2).pdf" download class="neutral-button grid-item">Resum&eacute;</a>
-                    <a href="https://github.com/nickdloucks" class="neutral-button grid-item" target="_blank">Github Profile</a>
-                    <a href="https://www.linkedin.com/in/nick-loucks-6518bb222/" class="neutral-button grid-item" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/nickdloucks/Code-Portfolio" class="neutral-button grid-item" target="_blank">Code Portfolio</a>
-                </div>
-            </section>
-            
-            
+           
             <h2>Try out my Projects:</h2>
             
             <section>
                 <h3>Roman Numeral Conversion Tool</h3>
                 <div>
-                <p>This is a reference tool that converts a base-10 number to a Roman Numeral string.</p>
-                    <details><p>It truncates (rounds down) any floating-point numbers to an integer before conversion.
-                    The only parameter is an integer in base-10 format.
-                    The return value is either a Roman Numeral or error message for invalid inputs.
-                    Process:
-                        1. convert decimal to string, split into an array of characters, then reverse the array.
-                        2. loop thru the reversed array of chars; inside the loop, store the digit as a number for comparison.
-                        3. assign the correct sequence of small, medium, and big letters based on the digit's place in the base-10 input.
-                        4. push the letter sequence onto the final roman numeral string and return the finished string.
-                    </p>
+                    <p>This is a reference tool that converts a base-10 number to a Roman Numeral string.</p>
+                    <details>
+                        <p>It truncates (rounds down) any floating-point numbers to an integer before conversion.
+                            The only parameter is an integer in base-10 format.
+                            The return value is either a Roman Numeral or error message for invalid inputs.
+                            Process:
+                            <ol>
+                            1. convert decimal to string, split into an array of characters, then reverse the array.
+                            2. loop thru the reversed array of chars; inside the loop, store the digit as a number for comparison.
+                            3. assign the correct sequence of small, medium, and big letters based on the digit's place in the base-10 input.
+                            4. push the letter sequence onto the final roman numeral string and return the finished string.
+                            </ol>
+                        </p>
                     </details>
                 </div>
                 <a href="https://github.com/nickdloucks/Roman-Numeral-project" target="_blank" class="neutral-button" alt="My project repository on Github.">Source Code</a>
@@ -96,7 +100,9 @@
 
             <section>
                 <h3>Cash Till</h3>
-                <p>(coming soon...)</p>
+                <p>This is a TypeScript cash drawer with a Svelte interface. Caluculate change due for a cash transaction. Customize the drawer state, price, and amount paid. </p>
+                <a href="https://github.com/nickdloucks/Cash-Machine" target="_blank" class="neutral-button" alt="My project repository on Github.">Source Code</a>
+                <iframe src="https://nickdloucks.github.io/Cash-Machine/" class="embedded-project" alt="My Cash Drawer Project."></iframe>
             </section>
         </main>
     </body>
