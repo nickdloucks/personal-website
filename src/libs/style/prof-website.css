@@ -1,21 +1,28 @@
-header{
+/* header{
     background-image: url('../../../images/github-profPic.jpg');
-
-}
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 h1,h2{
     text-align: center;
 }
 #profile-picture{
-    border-radius: 20%;
-    width: minmax(400px, 1fr);
+    display: inline-block;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
 }
 
 p{
     box-sizing: border-box;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1em;
+    padding: 1em;
     background-color: #303030;
+}
+
+section{
+    background-image: linear-gradient(45deg, #363636, #111, #818181);
 }
 
 .embedded-project{
@@ -25,4 +32,14 @@ p{
     width: 90%;
     height: 500px;
 
+}
+.intro1{
+    display: flex;
+    flex-direction: row;
+    background-color: #303030;
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
 }
